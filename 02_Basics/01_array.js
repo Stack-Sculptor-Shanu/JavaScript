@@ -22,12 +22,12 @@ const newArr = myArr.join('') // join is a method which binds the element of the
 // console.log(myArr)
 
 //slice and splice
-console.log("A ",myArr)
+// console.log("A ",myArr)
 
 const myN1 = myArr.slice(1,3) // slice is a method which returns the array based upon the arguments here we are passing 1 and 3 we will be receiving the elments having index as 1 and 2 it does not consider the last index. It does not modify the original array
-console.log(myN1)
-console.log("B ",myArr)
+// console.log(myN1)
+// console.log("B ",myArr)
 
 const myN2 = myArr.slice(1,3) // splice is a method which returns the array based upon the arguments here we are passing 1 and 3 we will be receiving the elments having index as 1,2 and 3. It changes the original array
-console.log(myN2)
-console.log("C ",myArr)
+// console.log(myN2)
+// console.log("C ",myArr)
